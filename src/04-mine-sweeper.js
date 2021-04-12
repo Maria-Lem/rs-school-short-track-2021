@@ -23,6 +23,17 @@
  */
 function minesweeper(/* matrix */) {
   throw new Error('Not implemented');
+
+  // console.log(matrix.map(el => el === true ? 1 : 2));
+  // for (let i = 0; i < matrix.length; i++) {
+  //   // console.log(matrix[i]);
+  //   for (let j = 0; j < i; j++) {
+  //     if (matrix[j] === true) {
+  //       console.log('hi');
+  //     }
+  //     console.log(matrix[j]);
+  //   }
+  // }
 }
 
 module.exports = minesweeper;
